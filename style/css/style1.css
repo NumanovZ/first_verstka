@@ -1,0 +1,1068 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.sayt
+{
+    width: 1600px;
+    height: 3490px;
+    /* border: 1px solid red; */
+    margin: auto;
+    position:relative; 
+    background-image: url(../../images/orqa\ fon\ nqshi.png);
+}
+.sayt__center
+{
+    width: 1000px;
+    height: 100%;
+    /* border: 1px solid blue; */
+    /* margin: auto; */
+    position: absolute;
+    top: 0px;
+    left: 300px;
+   background-image: url(../../images/orqa\ fon\ nqshi.png);
+}
+.header
+{
+    height: 200px;
+    background-image: url(../../images/top-left.png);
+    z-index: 2;
+
+}
+.header .naqsh11
+{
+  position: absolute;
+  left: 2px;
+  z-index: 3;
+ 
+}
+.header .naqsh12
+{
+  position: absolute;
+  left: 620px;
+  z-index: 3;
+ 
+}
+.header .naqsh0
+{
+    position: absolute;
+    left: 1240px;
+z-index: 3;
+}
+
+.sayt__header
+{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(6, 49, 236, 0.747);
+display: block;
+position: relative;
+}
+.sayt__img
+{
+    height: 375px;
+    background-image: url(../../images/people.png);
+    margin-top: 20px;
+    position: relative;
+}
+.sayt__korxona
+{
+    width: 100%;
+    height: 355px;
+    margin-top: 20px;
+    border: 1px solid rgba(255, 0, 0, 0);
+}
+.korxona 
+{
+    width: 100%;
+    height: 355px;
+    margin-top: 20px;
+    /* margin-top: 595px; */
+    margin-top: 418px;
+    background-image: url(../../images/korxona\ qismi\ orqa\ foni.png) ;
+    position: relative;
+}
+.korxona .naqsh1
+{
+position: absolute;
+/* left: 620px; */
+top: 295px;
+}
+.korxona .naqsh2
+{
+position: absolute;
+left: 620px;
+top: 295px;
+}
+.korxona .naqsh3
+{
+position: absolute;
+left: 1240px;
+top: 295px;
+}
+
+.sayt__header img
+{
+    width: 70px;
+    height: 70px;
+    margin: 55px 115px;
+    float: left;
+
+}
+.sayt__header h1
+{
+    float: left;
+    position: absolute;
+    top: 70px;
+    left: 210px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.sayt__header .matn
+{
+    float: left;
+    position: absolute;
+    top: 100px;
+    left: 210px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.sayt__header .matn1
+{
+    float: left;
+    position: absolute;
+    top: 65px;
+    left: 700px;
+    font-size: 21px;
+    font-family: sans-serif;
+    color: #fff;
+}
+.sayt__header .matn2
+{
+    float: left;
+    position: absolute;
+    top: 80px;
+    left:885px;
+    /* font-size: 21px; */
+    font-family: cursive;
+    color: #fff;
+}
+.phone
+{
+    display: block;
+    width: 320px;
+    height: 40px;
+    text-align:center;
+/* border: 1px solid red; */
+background-color: rgb(255, 166, 0);
+position: absolute;
+top: 115px;
+left: 680px;
+line-height: 40px;
+font-size: 20px;
+color: #fff;
+}
+
+.flag
+{
+    width: 100px;
+    height: 35px;
+    /* border: 1px solid red; */
+    background-color: rgba(255, 245, 238, 0.521);
+    position: absolute;
+    top: 1px;
+    left: 1200px;
+    z-index: 6;
+}
+.flag img
+{
+    margin-left:10px;
+    margin-top: 7px;
+}
+.sayt__submenu
+{
+    width: 1000px;
+    height: 45px;
+    background-color: rgb(21, 150, 209);
+position: absolute;
+top: 155px;
+
+}
+.sayt__submenu ul
+{
+    height: 100%;
+    width: 850px; 
+}
+.sayt__submenu ul li
+{
+    height: 100%;
+    width: 140px;
+    float: left;
+    list-style: none;
+   text-align: center;
+
+}
+
+.sayt__submenu ul li:nth-child(2)
+{
+    width: 170px;
+
+}
+.sayt__submenu ul li:nth-child(6)
+{
+    width: 100px;
+
+}
+.sayt__submenu ul li a
+{
+    line-height: 45px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+.sayt__submenu ul li:hover
+{
+    background-color:  rgb(0, 204, 255);
+}
+
+.img__left
+{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(21, 150, 209);
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: 170px;
+}
+.img__right
+{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: 170px;
+    right: 0px;
+}
+.img__text
+{
+    width: 515px;
+    height: 110px;
+    background-color:  rgba(82, 179, 235, 0.658);
+    text-align: center;
+    position: absolute;
+    top: 225px;
+    left: 40px;
+}
+.img__text h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 110px;
+    color: #fff;
+}
+.korxona__left
+{
+    width: 385px;
+    height: 2px;
+    border-bottom:1px solid #fff ;
+    float: left;
+    margin-top: 50px;
+}
+.korxona__center
+{
+    width: 195px;
+    height: 10px;
+    float: left;
+    margin-top: 42px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.korxona__right
+{
+    width: 385px;
+    height: 2px;
+    border-bottom:1px solid #fff ;
+    float: right;
+    /* margin-left: 195px; */
+    margin-top: 50px;
+}
+.korxona__text
+{
+    height: 170px;
+width: 100%;
+margin: 105px 5px;
+color: #fff
+
+}
+.sayt__mahsulot
+{
+    width: 1000px;
+    height: 875px;
+    /* background-color: aqua; */
+position: relative;
+/* overflow: hidden; */
+}
+.mahsulot__left
+{
+    float: left;
+    width: 230px;
+    height: 100%;
+    /* background-color: brown; */
+}
+
+.mahsulot__left .year
+{
+    width: 230px;
+    height: 140px;
+   background-image: url(../../images/date1.jpg)  ;
+    overflow: hidden;
+   margin-top: 23px;
+}
+.year .year__text1
+{
+    font-size: 25px;
+    text-align: center;
+    margin: 20px 30px;
+    color: #fff;
+}
+.year .year__text2
+{
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 15px;
+    color: #fff;
+}
+.mahsulot__left  .text55
+{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.mahsulot__left .date
+{
+    width: 230px;
+    height: 140px;
+    background-color: darkgray;
+    margin-top: 5px;
+    text-align: center;
+    overflow: hidden;
+}
+.date h3
+{
+    text-align: center;
+    margin-top: 20px;
+}
+.date p
+{
+    margin: 10px 55px;
+}
+.mahsulot__right
+{
+    float: left;
+    width: 770px;
+    height: 100%;
+    /* background-color: rgb(99, 177, 21); */
+    position: relative;
+}
+.mahsulot__right .mahsulot__chap
+{
+    float: left;
+    width: 300px;
+    height: 2px;
+    border-bottom: 1px solid rgb(153, 151, 151);
+  
+    margin-top: 22px;
+}
+.mahsulot__right .mahsulot__center
+{
+    float: left;
+    width: 150px;
+    height: 10px;
+    /* border: 1px solid black; */
+    margin-top: 14px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 19px;
+
+}
+.mahsulot__right .mahsulot__ong
+{
+    float: right;
+    width: 300px;
+    height: 2px;
+    border-bottom: 1px solid rgb(153, 151, 151);
+    margin-top: 22px;
+}
+.clear
+{
+    clear: both;
+}
+
+.card1
+{
+    width: 240px;
+    height: 335px;
+    /* border: 1px solid red; */
+  position: absolute;
+  top: 55px;
+  left: 260px;
+  float: left;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.card1 h3
+{
+    margin-top:5px ;
+}
+.card1 p
+{
+    margin-top:10px ;
+    /* font-size: 17px; */
+}
+.card1 .yangi
+{
+
+
+    width: 135px;
+    height: 25px;
+    background-color: orange;
+    position: absolute;
+    top: 5px;
+    left: 100px;
+
+}
+.yangi p
+{
+    text-align: center;
+    line-height:6px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 14px;
+}
+
+.card2
+{
+    width: 240px;
+    height: 335px;
+    /* border: 1px solid red; */
+  position: absolute;
+  top: 55px;
+   left: 509px; 
+  float: left;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.card2 h3
+{
+    margin-top:5px ;
+}
+.card2 p
+{
+    margin-top:10px ;
+    /* font-size: 17px; */
+}
+.malumot
+{
+    width: 238px;
+    height: 37px;
+    background-color: rgb(0, 183, 255);
+    position: absolute;
+    top: 202px;
+
+}
+.malumot p
+{
+    text-align: center;
+    /* line-height: 37px; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+
+.card3
+{
+
+    width: 240px;
+    height: 335px;
+    /* border: 1px solid red; */
+  position: absolute;
+  top: 55px;
+  left: 758px;
+  float: left;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.card3 h3
+{
+    margin-top:5px ;
+}
+.card3 p
+{
+    margin-top:10px ;
+    /* font-size: 17px; */
+}
+
+.card4
+{
+    width: 240px;
+    height: 335px;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 410px;
+     left: 260px; 
+    float: left;
+   font-family: Arial, Helvetica, sans-serif; 
+
+}
+.card4 h3
+{
+    margin-top:5px ;
+}
+.card4 p
+{
+    margin-top:10px ;
+    /* font-size: 17px; */
+}
+
+.card5
+{
+    width: 240px;
+    height: 335px;
+    /* border: 1px solid red; */
+  position: absolute;
+  top: 410px;
+   left: 509px; 
+  float: left;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.card5 h3
+{
+    margin-top:5px ;
+}
+.card5 p
+{
+    margin-top:10px ;
+    /* font-size: 17px; */
+}
+
+
+
+.card6
+{
+
+    width: 240px;
+    height: 335px;
+    /* border: 1px solid red; */
+  position: absolute;
+  top: 410px;
+  left: 758px;
+  float: left;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.card6 h3
+{
+    margin-top:5px ;
+}
+.card6 p
+{
+    margin-top:10px ;
+    /* font-size: 17px; */
+}
+.mahsulot123
+{
+    width: 750px;
+    height: 2px;
+    border-bottom: 1px solid rgb(153, 151, 151);
+    position: absolute;
+    top: 780px;
+    right: 0px;
+}
+.barcha 
+{
+    width: 180px;
+    height: 35px;
+    background-color: orange;
+    text-align: center;
+    position: absolute;
+    top: 1780px;
+    right: 280px;
+}
+.barcha p
+{
+    line-height: 35px;
+    color: #fff;
+    font-size: 13px;
+}
+
+
+.mahsulot__chap1
+{
+    float: left;
+    width: 440px;
+    height: 2px;
+    border-bottom: 1px solid rgb(153, 151, 151);
+    position: absolute;
+    top: 1860px;
+    left: 0px;
+    
+
+}
+.mahsulot__center1
+{
+    float: left;
+    width: 110px;
+    height: 10px;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 1855px;
+    left: 445px;
+
+}
+.mahsulot__ong1
+{
+    float: left;
+    width: 440px;
+    height: 2px;
+    border-bottom: 1px solid rgb(153, 151, 151);
+    position: absolute;
+    top: 1860px;
+    right: 0px ;
+    float: left;
+}
+.yangiliklar
+{
+    height: 530px;
+    /* background-color: paleturquoise; */
+}
+
+.card-1
+{
+    float: left;
+    width: 360px;
+    height: 375px;
+    /* border: 1px solid red; */
+ margin-top: 45px;
+}
+.card-1 h4
+{
+    margin-right: 60px;
+}
+.card-1 p
+{
+    margin-top: 10px;
+    margin-right: 60px;
+}
+.card-1 h5
+{
+    margin-top: 15px;
+    margin-right: 60px;
+    color: rgb(14, 177, 218);
+}
+.card-2
+{
+    float: left;
+    width: 360px;
+    height: 375px;
+    /* border: 1px solid red; */
+    margin-top: 45px;
+}
+.card-2 h4
+{
+    margin-right: 60px;
+}
+.card-2 p
+{
+    margin-top: 10px;
+    margin-right: 60px;
+}
+.card-2 h5
+{
+    margin-top: 15px;
+    margin-right: 60px;
+    color: rgb(14, 177, 218);
+}
+.card-3
+{
+    float: right;
+    width: 280px;
+    height: 375px;
+    /* border: 1px solid red; */
+    margin-top: 45px;
+}
+.card-3 h4
+{
+    margin-right: 60px;
+}
+.card-3 p
+{
+    margin-top: 10px;
+    /* margin-right: 0px; */
+}
+.card-3 h5
+{
+    margin-top: 15px;
+    color: rgb(14, 177, 218);
+}
+.card-4
+{
+    width: 1000px;
+    height: 2px;
+    border-bottom: 1px solid rgb(153, 151, 151);
+    position: absolute;
+    top: 2250px;
+    right: 0px;
+}
+
+.card-5 
+{
+    width: 180px;
+    height: 35px;
+    background-color: orange;
+    text-align: center;
+    position: absolute;
+    top: 2270px;
+    left: 405px;
+  
+}
+.card-5 p
+{
+    line-height: 35px;
+    color: #fff;
+    font-size: 13px;
+}
+
+
+.mahsulot__chap2
+{
+    float: left;
+    width: 410px;
+    height: 2px;
+    border-bottom: 1px solid rgb(153, 151, 151);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+
+}
+.mahsulot__center2
+{
+    float: left;
+    width: 170px;
+    height: 10px;
+    /* border: 1px solid red; */
+    position: absolute;
+    top:-5px;
+    left: 421px;
+
+}
+.mahsulot__ong2
+{
+    float: left;
+    width: 410px;
+    height: 2px;
+    border-bottom: 1px solid rgb(153, 151, 151);
+    position: absolute;
+    top: 0px;
+    right: 0px ;
+    float: left;
+}
+.mijozlar
+{
+    height: 560px;
+    /* background-color: palevioletred; */
+    position: relative;
+}
+.mijozlar img
+{
+    margin: 60px 70px;
+}
+.mijozlar__text
+{
+    width: 730px;
+    height: 110px;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 65px;
+    left: 200px;
+}
+.mijozlar__text h4
+{
+    margin-top: 10px;
+}
+.left1
+{
+    width: 40px;
+    height: 40px;
+    /* background-color: red; */
+    position: absolute;
+    top: 127px;
+  
+}
+.left1 h1
+{
+    line-height: 40px;
+    color: rgb(153, 151, 151);
+}
+
+.mahsulot__chap3
+{
+    float: left;
+    width: 390px;
+    height: 2px;
+    border-bottom: 1px solid rgb(153, 151, 151);
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    
+
+}
+.mahsulot__center3
+{
+    float: left;
+    width: 250px;
+    height: 10px;
+    /* border: 1px solid red; */
+    position: absolute;
+    top:245px;
+    left: 401px;
+
+}
+.mahsulot__ong3
+{
+    float: left;
+    width: 390px;
+    height: 2px;
+    border-bottom: 1px solid rgb(153, 151, 151);
+    position: absolute;
+    top: 250px;
+    right: 0px ;
+    float: left;
+}
+
+.input1
+{
+    float: left;
+    width: 315px;
+    height: 35px;
+    margin-top: 65px;
+    outline: none;
+}
+.input2
+{
+    float: left;
+    margin-left: 20px;
+    width: 315px;
+    height: 35px;
+    margin-top: 65px;
+    outline: none;
+}
+.input3
+{
+    float: right;
+    width: 315px;
+    height: 35px;
+    margin-top: 65px;
+    outline: none;
+}
+.input4
+{
+    margin-top: 10px;
+    width: 1000px;
+    height: 130px;
+   
+    outline: none;
+}
+.card-11
+{
+    width: 200px;
+    height: 35px;
+    background-color: orange;
+     text-align: center;
+  
+    margin: 20px 400px;
+    border: none;
+}
+.card-11 p
+{
+    color: #fff;
+    line-height: 35px;
+}
+
+.map
+{
+    /* width: 1600px; */
+    height: auto;
+    margin-top: 1966px;
+    position: relative;
+    z-index: 30;
+}
+.footer 
+{
+    width: 100%;
+    height: 230px;
+  background-image: url(../../images/footer.jpg);
+ 
+}
+
+.naqsh111
+{
+    float: left;
+   margin-top:190px;
+}
+.naqsh222
+{
+float: left;
+margin-top: 190px;
+   margin-left: 280px;
+}
+.naqsh333
+{
+    float: left;
+position: absolute;
+bottom: 5px;
+left: 600px;
+}
+.card-12
+{
+    width: 1000px;
+    height: 230px;
+    /* background-color: chocolate; */
+    z-index: 10;
+    margin-top: 300px;
+    position: relative;
+}
+
+
+.card-12 ul
+{
+    height: 40px;
+    width: 850px; 
+    z-index: 20;
+    position: absolute;
+    top: 90px;
+}
+.card-12 ul li
+{
+    height: 100%;
+    width: 140px;
+    float: left;
+    list-style: none;
+   text-align: center;
+
+}
+
+.card-12 ul li:nth-child(2)
+{
+    width: 170px;
+
+}
+.card-12 ul li:nth-child(6)
+{
+    width: 100px;
+
+}
+.card-12 ul li a
+{
+    line-height: 45px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+.card-12 ul li:hover
+{
+    background-color:  rgb(0, 204, 255);
+}
+.footer__p
+{
+width: 1000px;
+    position: absolute;
+   top: 1042px;
+z-index: 40;
+}
+.footer-1
+{
+float: left;
+color: rgb(153, 151, 151);
+
+}
+.footer-2
+{
+float: right;
+color: rgb(153, 151, 151);
+}
+.footer__f
+{
+    height: 2px;
+    width: 100%;
+    border-bottom: 1px solid rgb(153, 151, 151);
+
+position: absolute;
+bottom: 80px;
+z-index: 50;
+}
+.icons
+{
+    z-index: 100;
+    width: 100px;
+    height: 40px;
+    /* background-color: springgreen; */
+    margin-left: 910px;
+}
+.facebook
+{
+    width: 20px;
+    height: 20px;
+    float: left;
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 50%;
+    margin-left: 3px;
+}
+.twitter
+{
+    width: 20px;
+    height: 20px;
+    float: left;
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 50%;
+    margin-left: 3px;
+}
+.google
+{
+    width: 20px;
+    height: 20px;
+    float: left;
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 50%;
+    margin-left: 3px;
+}
+.facebook img
+{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: 60px;
+    right: 70px;
+}
+.twitter img
+{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: 60px;
+    right: 70px;
+}
+.google img
+{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: 60px;
+    right: 70px;
+}
